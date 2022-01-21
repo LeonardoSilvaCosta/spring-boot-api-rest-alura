@@ -29,11 +29,15 @@ Introdução ao Spring Boot
 Publicando Endpoints
 - [x] Uso da anotação @ResponseBody para o Controller não encaminhar a requisição à uma página JSP ou Thymeleaf
 - [x] Uso da anotação @RestController para não ter que repetir a anotação @ResponseBody em todo método da API 
-- [x] Uso da ferramente Devtools para não precisar reiniciar manualmente o servidor a cada alteração realizada no código. 
-Integração com Spring Data
-- [x] Usando JPA puro
-- [x] Uso do @Autowired
-- [X] Usandoo Spring Data JPA
+- [x] Uso da ferramente Devtools para não precisar reiniciar manualmente o servidor a cada alteração realizada no código 
+- [x] Uso do padrão DTO(Data Transfer Object) como boa prática para retornar entidades JPA nos métodos dos controllers 
+Usando Spring Data
+- [x] Uso do módulo Spring Boot Data JPA, que utiliza o Hibernate como padrão para sua implementação
+- [x] Uso do Banco de Dados H2 e sua configuração no arquivo src/main/resources/application.properties
+- [X] Uso das anotações @Entity, @Id, @GeneratedValue, @OneToMany e @Enumerated para mapear as classes de domínio da aplicação como entidade JPA
+- [x] Criação do arquivo src/main/resources/data.sql para que o Spring Boot popule automaticamente o banco de dados
+- [x] Uso de nomenclatura de métodos Spring como, por exemplo, findByCursoNome para criar consultas que filtram por atributos da entidade
+- [x] Uso da anotação @Query para criar consultas manualmente com JPQL
 Trabalhando com formulário
 - [x] Formulário de pedido
 - [x] Salvando pedido
