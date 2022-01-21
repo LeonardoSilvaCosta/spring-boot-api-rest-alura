@@ -38,12 +38,10 @@ Usando Spring Data
 - [x] Criação do arquivo src/main/resources/data.sql para que o Spring Boot popule automaticamente o banco de dados
 - [x] Uso de nomenclatura de métodos Spring como, por exemplo, findByCursoNome para criar consultas que filtram por atributos da entidade
 - [x] Uso da anotação @Query para criar consultas manualmente com JPQL
-Trabalhando com formulário
-- [x] Formulário de pedido
-- [x] Salvando pedido
-- [x] Populando automaticamente
-- [x] Uso do DTO
-- [x] Uso do @RequestMapping
+Trabalhando com POST
+- [x] Uso da anotação @RequestMapping em cima da classe controller para evitar repetir a URL base em todos os métodos
+- [x] Uso anotação @PostMapping para mapear as requisições do tipo POST
+- [ ] Uso do padrão DTO(Data Transfer Object) como boa prática para eceber dados enviados no corpo da requisição
 Trabalhando com Bean Validation
 - [x] Validação do pedido
 - [x] Mensagens de erro
