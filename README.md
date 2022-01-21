@@ -41,19 +41,25 @@ Usando Spring Data
 Trabalhando com POST
 - [x] Uso da anotação @RequestMapping em cima da classe controller para evitar repetir a URL base em todos os métodos
 - [x] Uso anotação @PostMapping para mapear as requisições do tipo POST
-- [ ] Uso do padrão DTO(Data Transfer Object) como boa prática para eceber dados enviados no corpo da requisição
+- [x] Uso do padrão DTO(Data Transfer Object) como boa prática para receber dados enviados no corpo da requisição
+- [x] Devolver o código HTTP 201 para requisições que cadastram informações, conforme a boa prática
+- [x] Uso da classe ResponseEntity do Spring para montar uma resposta a ser devolvida ao cliente da API
+- [x] Uso da ferramenta Postman para testar as requisições do tipo POST
 Trabalhando com Bean Validation
 - [x] Validação do pedido
 - [x] Mensagens de erro
 - [x] Objetivo da anotação @Valid
-Trabalhando com templates
-- [x] Finalizando o topo
-- [x] Criando template
-ZFormatação e finalização
-- [x] Modelando o status
-- [x] Rota do status
-- [x] Formatação de número e data
-
+Validação com Bean Validation
+- [x] Uso das anotações @NotNull @NotEmpty e @Size do Bean Validation
+- [x] Uso da anotação @Valid para o Spring disparar as validações do Bean Validation e devolver um erro 400
+- [x] Criação de um método na classe @RestControllerAdvice com a anotação @ExceptionHandler e @ResponseStatus para tratar os erros de validação do Bean Validation e personalizar o JSON que será devolvida ao cliente da API
+Método PUT, DELETE e tratamento de erro
+- [x] Uso da anotação @PathVariable para receber parâmetros dinâmicos no path da URL
+- [x] Uso da anotação @PutMapping para mapear requisições do tipo PUT
+- [x] Uso da anotação @Transactional para fazer o controle transacional automático
+- [x] Uso da anotação @DeleteMapping para mapear requisições do tipo DELETE
+- [x] Substituição do método getOne pelo método findBy para melhor tratamento do erro 404 através do uso do Optional
+- [x] Uso da classe ResponseEntity para tratar a resposta de not found
 
 ---
 
@@ -69,9 +75,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Spring security](https://spring.io/projects/spring-security)
 - [Spring validation](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/validation.html)
 - [Spring devtools](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html)
-- [Thymeleaf](https://www.thymeleaf.org/)
 - [Intelij IDEA](https://www.jetbrains.com/pt-br/idea/)
-- [java-Dotenv](https://github.com/cdimascio/java-dotenv)
 
 ---
 
