@@ -58,7 +58,7 @@ Método PUT, DELETE e tratamento de erro
 - [x] Uso da anotação @PutMapping para mapear requisições do tipo PUT
 - [x] Uso da anotação @Transactional para fazer o controle transacional automático
 - [x] Uso da anotação @DeleteMapping para mapear requisições do tipo DELETE
-- [x] Substituição do método getOne pelo método findBy para melhor tratamento do erro 404 através do uso do Optional
+- [x] Substituição do método getOne pelo método findById para melhor tratamento do erro 404 através do uso do Optional
 - [x] Uso da classe ResponseEntity para tratar a resposta de not found
 
 ---
