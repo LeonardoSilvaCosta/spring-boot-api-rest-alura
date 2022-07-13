@@ -14,7 +14,7 @@ Tabela de conteúdos
 
 ---
 
-## 💻 Sobre
+### 💻 Sobre
 
 Esse projeto tem o objetivo de prover um upgrade nas habilidades do autor deste README.
 O foco do projeto é desenvolver uma API REST com o uso de módulos spring e o auxílio de outras ferramentas como Postman e banco de dados H2.
