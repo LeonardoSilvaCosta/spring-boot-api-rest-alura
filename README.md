@@ -75,7 +75,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Spring security](https://spring.io/projects/spring-security)
 - [Spring validation](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/validation.html)
 - [Spring devtools](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html)
-- [Project Lombok](https://projectlombok.org/)
 - [Intelij IDEA](https://www.jetbrains.com/pt-br/idea/)
 
 ---
