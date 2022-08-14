@@ -86,6 +86,6 @@ Em busca do próximo nível 🚀 - Never stop learning. 🧑‍🎓
 
 
 <h4> 
-	Under construction. 👌
+	Finalized. 👌
 </h4>
 
