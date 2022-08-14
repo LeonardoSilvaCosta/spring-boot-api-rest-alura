@@ -75,17 +75,18 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Spring security](https://spring.io/projects/spring-security)
 - [Spring validation](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/validation.html)
 - [Spring devtools](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html)
+- [Project Lombok](https://projectlombok.org/)
 - [Intelij IDEA](https://www.jetbrains.com/pt-br/idea/)
 
 ---
 
 ### Autor
-[Leonardo da Silva Costa](https://www.linkedin.com/in/leonardo-costa-b49b8062/)
+[Leonardo da Silva Costa](https://www.linkedin.com/in/leonardo-da-silva-costa/)
 
 Em busca do próximo nível 🚀 - Never stop learning. 🧑‍🎓
 
 
 <h4> 
-	Finalizado. 👌
+	Under construction. 👌
 </h4>
 
